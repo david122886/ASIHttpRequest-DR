@@ -53,7 +53,6 @@
 		63AFF06A187D32820094C8B2 /* ASIHTTPRequest+DownloadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFF069187D32820094C8B2 /* ASIHTTPRequest+DownloadData.m */; };
 		63AFF070187D33520094C8B2 /* ASIHTTPRequestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFF06F187D33520094C8B2 /* ASIHTTPRequestHeader.m */; };
 		63AFF077187D34780094C8B2 /* ASINetworkQueue+StaticQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFF076187D34780094C8B2 /* ASINetworkQueue+StaticQueues.m */; };
-		63AFF07D187D4E980094C8B2 /* DownloadDataButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFF07C187D4E980094C8B2 /* DownloadDataButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,8 +149,6 @@
 		63AFF06F187D33520094C8B2 /* ASIHTTPRequestHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequestHeader.m; sourceTree = "<group>"; };
 		63AFF075187D34780094C8B2 /* ASINetworkQueue+StaticQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASINetworkQueue+StaticQueues.h"; sourceTree = "<group>"; };
 		63AFF076187D34780094C8B2 /* ASINetworkQueue+StaticQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASINetworkQueue+StaticQueues.m"; sourceTree = "<group>"; };
-		63AFF07B187D4E980094C8B2 /* DownloadDataButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadDataButton.h; sourceTree = "<group>"; };
-		63AFF07C187D4E980094C8B2 /* DownloadDataButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadDataButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,8 +378,6 @@
 				63AFF06F187D33520094C8B2 /* ASIHTTPRequestHeader.m */,
 				63AFF075187D34780094C8B2 /* ASINetworkQueue+StaticQueues.h */,
 				63AFF076187D34780094C8B2 /* ASINetworkQueue+StaticQueues.m */,
-				63AFF07B187D4E980094C8B2 /* DownloadDataButton.h */,
-				63AFF07C187D4E980094C8B2 /* DownloadDataButton.m */,
 			);
 			path = DRExtendASI;
 			sourceTree = "<group>";
@@ -489,7 +484,6 @@
 				63AFF040187D24B80094C8B2 /* ASIS3ServiceRequest.m in Sources */,
 				63AFF030187D24B80094C8B2 /* ASIHTTPRequest.m in Sources */,
 				63AFF03E187D24B80094C8B2 /* ASIS3ObjectRequest.m in Sources */,
-				63AFF07D187D4E980094C8B2 /* DownloadDataButton.m in Sources */,
 				63AFF02B187D24B80094C8B2 /* ASIAuthenticationDialog.m in Sources */,
 				63AFF03F187D24B80094C8B2 /* ASIS3Request.m in Sources */,
 				63AFF034187D24B80094C8B2 /* ASICloudFilesCDNRequest.m in Sources */,
@@ -732,6 +726,7 @@
 				63AFEFCE187D0B7A0094C8B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63AFEFCF187D0B7A0094C8B2 /* Build configuration list for PBXNativeTarget "ASIHttpRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +735,7 @@
 				63AFEFD1187D0B7A0094C8B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
