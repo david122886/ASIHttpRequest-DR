@@ -53,6 +53,7 @@
 		63AFF06A187D32820094C8B2 /* ASIHTTPRequest+DownloadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFF069187D32820094C8B2 /* ASIHTTPRequest+DownloadData.m */; };
 		63AFF070187D33520094C8B2 /* ASIHTTPRequestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFF06F187D33520094C8B2 /* ASIHTTPRequestHeader.m */; };
 		63AFF077187D34780094C8B2 /* ASINetworkQueue+StaticQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AFF076187D34780094C8B2 /* ASINetworkQueue+StaticQueues.m */; };
+		63B6E0E3188125E500F1624D /* DownloadDataButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6E0E2188125E500F1624D /* DownloadDataButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,8 @@
 		63AFF06F187D33520094C8B2 /* ASIHTTPRequestHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequestHeader.m; sourceTree = "<group>"; };
 		63AFF075187D34780094C8B2 /* ASINetworkQueue+StaticQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASINetworkQueue+StaticQueues.h"; sourceTree = "<group>"; };
 		63AFF076187D34780094C8B2 /* ASINetworkQueue+StaticQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASINetworkQueue+StaticQueues.m"; sourceTree = "<group>"; };
+		63B6E0E1188125E500F1624D /* DownloadDataButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadDataButton.h; sourceTree = "<group>"; };
+		63B6E0E2188125E500F1624D /* DownloadDataButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadDataButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +375,8 @@
 		63AFF064187D31080094C8B2 /* DRExtendASI */ = {
 			isa = PBXGroup;
 			children = (
+				63B6E0E1188125E500F1624D /* DownloadDataButton.h */,
+				63B6E0E2188125E500F1624D /* DownloadDataButton.m */,
 				63AFF068187D32820094C8B2 /* ASIHTTPRequest+DownloadData.h */,
 				63AFF069187D32820094C8B2 /* ASIHTTPRequest+DownloadData.m */,
 				63AFF06E187D33520094C8B2 /* ASIHTTPRequestHeader.h */,
@@ -484,6 +489,7 @@
 				63AFF040187D24B80094C8B2 /* ASIS3ServiceRequest.m in Sources */,
 				63AFF030187D24B80094C8B2 /* ASIHTTPRequest.m in Sources */,
 				63AFF03E187D24B80094C8B2 /* ASIS3ObjectRequest.m in Sources */,
+				63B6E0E3188125E500F1624D /* DownloadDataButton.m in Sources */,
 				63AFF02B187D24B80094C8B2 /* ASIAuthenticationDialog.m in Sources */,
 				63AFF03F187D24B80094C8B2 /* ASIS3Request.m in Sources */,
 				63AFF034187D24B80094C8B2 /* ASICloudFilesCDNRequest.m in Sources */,

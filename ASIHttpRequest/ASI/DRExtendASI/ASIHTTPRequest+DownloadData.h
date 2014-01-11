@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "ASIHTTPRequest.h"
 #define URLKey @"urlString"//用来区别每一个requestion
+#define URLReceiveDataSize @"URLReceiveDataSize"
+#define URLTotalDataSize @"URLTotalDataSize"
+#define URLLocalPath @"URLLocalPath"
 @interface ASIHTTPRequest(DownloadData)
 //下载大文件
 +(id)requestWithLargeDataURL:(NSURL *)newURL;
